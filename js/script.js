@@ -61,39 +61,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
     ].innerHTML = `<span class="bar-span" style="width:${percent}%" ></span>`;
   }
 });
-
-function msg1() {
-  console.log(
-    (document.getElementById("myForm").action =
-      "mailto:ivan.bii33@gmail.com" +
-      "&name" +
-      encodeURIComponent(document.getElementById("i1").value) +
-      "&email=" +
-      encodeURIComponent(document.getElementById("i2").value) +
-      "&phone=" +
-      encodeURIComponent(document.getElementById("i3").value) +
-      "?subject=" +
-      encodeURIComponent(document.getElementById("i4").value) +
-      "?message=" +
-      encodeURIComponent(document.getElementById("i5").value))
-  );
-  alert(document.getElementById("myForm").action);
-  return false;
-}
-
-// document.getElementById("myForm").addEventListener("submit", function (event) {
-//   event.preventDefault();
-
-//   let formData = new FormData(this);
-
-//   fetch("sendFormData.php", { method: "POST", body: formData })
-//     .then((response) => {
-//       if (response.ok) {
-//         alert("Form submitted successfully!");
-//         this.reset();
-//       } else {
-//         alert("An error occurred. Please try again");
-//       }
-//     })
-//     .catch((error) => console.error("Error:", error));
-// });
