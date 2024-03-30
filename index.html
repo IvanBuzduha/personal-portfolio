@@ -244,18 +244,26 @@
         Contact <span>Me!</span>
         <span class="animate scroll" style="--i: 1"></span>
       </h2>
-      <!-- <form action="mailto:ivan.bii33@gmail.com" id="myForm" method="post"> -->
-      <form action="https://formspree.io/f/mayrjgey" id="myForm" method="post">
+      <form action="#" id="myForm" method="post">
         <div class="input-box">
           <div class="input-field">
-            <input name="name" type="text" placeholder="Full Name" required />
+            <input
+              id="i1"
+              onchange="msq1()"
+              value=""
+              type="text"
+              placeholder="Full Name"
+              required
+            />
             <span class="focus"></span>
           </div>
           <div class="input-field">
             <input
-              name="email"
+              id="i2"
+              onchange="msq1()"
+              value=""
               type="text"
-              placeholder="Email Address"
+              placeholder="Email Adress"
               required
             />
             <span class="focus"></span>
@@ -265,7 +273,9 @@
         <div class="input-box">
           <div class="input-field">
             <input
-              name="mobile"
+              id="i3"
+              onchange="msq1()"
+              value=""
               type="number"
               placeholder="Mobile Number"
               required
@@ -274,7 +284,9 @@
           </div>
           <div class="input-field">
             <input
-              name="subject"
+              id="i4"
+              onchange="msq1()"
+              value=""
               type="text"
               placeholder="Email Subject"
               required
@@ -285,7 +297,9 @@
         </div>
         <div class="textarea-field">
           <textarea
-            name="message"
+            id="i5"
+            onchange="msq1()"
+            name=""
             cols="30"
             rows="10"
             placeholder="Your Message"
