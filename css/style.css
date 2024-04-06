@@ -228,10 +228,10 @@ section {
   background: transparent;
   transition: 3s;
 }
-.home-imgHover:hover {
+/* .home-imgHover:hover {
   background: var(--bg-color);
   opacity: 0.8;
-}
+} */
 .about {
   display: flex;
   justify-content: center;
@@ -681,11 +681,11 @@ section:nth-child(odd) .animate.scroll,
     transform: translateX(0);
     transition-delay: 0.25s;
   }
-  .home-imgHover {
+  /* .home-imgHover {
     pointer-events: none;
     background: var(--bg-color);
     opacity: 0.6;
-  }
+  } */
 }
 @media (max-width: 520px) {
   html {
